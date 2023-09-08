@@ -27,12 +27,32 @@ public class EmployeeTest {
 		System.out.println(employee1.getPosition());
 		
 		
+		// Create another Employee Object
+		Employee employee2 = new Employee();
+		
+		// get data from second Employee
+		System.out.println(employee2.getName());
+		System.out.println(employee2.getBirthDate());
+		System.out.println(employee2.getPosition());
+		
+		// Create a third Employee Object
+		Employee employee3 = new Employee("Adam Peever", "July 28, 2006", "French Fry Guy");
+		
+		// get data from third Employee
+		System.out.println(employee3.getName());
+		System.out.println(employee3.getBirthDate());
+		System.out.println(employee3.getPosition());
+	
+		System.out.println("\n\n\n");
+		System.out.println(employee1);
+		System.out.println(employee2);
+		System.out.println(employee3);
+		System.out.println("\n\n\n");
+		System.out.println(employee1.toString());
+		System.out.println(employee2.toString());
+		System.out.println(employee3.toString());
 		
 		
-		
-		
-		
-
 	}
 
 }

@@ -7,6 +7,24 @@ public class Employee {
 	String birthDate = "";
 	String position = "";
 	
+	
+	// Default Constructor
+	public Employee()  {
+		
+		this.name = "Name TBD.";
+		this.birthDate = "Birthdate TBD.";
+		this.position = "Position TBD";
+		
+	}
+	
+	// Parameterized Constructor
+	public Employee(String n, String bd, String p)  {
+		
+		this.name = n;
+		this.birthDate = bd;
+		this.position = p;
+	}
+	
 	// get methods
 	
 	// get name
@@ -47,5 +65,14 @@ public class Employee {
 		
 		this.position = p;
 	}
+
+	// Over-ride .toString() method
+	@Override
+	public String toString()  {
+		
+		
+		return super.toString() + this.name + "." + this.birthDate + "."+ this.position;
+	}
+	
 	
 }
