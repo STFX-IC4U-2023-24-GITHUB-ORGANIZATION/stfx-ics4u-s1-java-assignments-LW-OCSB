@@ -1,6 +1,6 @@
 package lessons.vehicle;
 
-public class Vehicle {
+public abstract class Vehicle {
 
 	// data members
 	private String fuelType;
@@ -78,7 +78,7 @@ public class Vehicle {
 		
 		String str = "";
 		
-		str = super.toString() + this.fuelType + "." + this.colour + "."
+		str = super.toString() + "." + this.fuelType + "." + this.colour + "."
 				+ this.maxPass + "." + this.hasMotor;
 				
 		return str;
