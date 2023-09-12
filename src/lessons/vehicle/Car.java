@@ -14,5 +14,34 @@ public class Car extends Vehicle   {
 		transmission = "";
 	}
 	
+	// DESCRIPTION: parameterized constructor 
+	// PARAMETER LIST: String fuelType, String colour, int maxPass, boolean hasMotor, String trans
+	// RETURN TYPE: Car 
+	public Car(String ft, String c, int mp, boolean hm, String t) {
 	
+		this.fuelType = ft;
+		this.colour = c;
+		this.maxPass = mp;
+		this.hasMotor = hm;
+		this.transmission = t;
+	}
+	
+	// get methods
+	public String getTransmission()  {
+
+		return this.transmission;
+	}
+	
+	// set methods
+	public void setTransmission(String t)  {
+		
+		this.transmission = t;
+	}
+	
+	
+	@Override
+	public String toString()  {
+		
+		return super.toString() + "." + this.transmission;
+	}
 }

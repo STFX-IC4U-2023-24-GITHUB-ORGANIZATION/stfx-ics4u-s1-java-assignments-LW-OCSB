@@ -3,10 +3,10 @@ package lessons.vehicle;
 public abstract class Vehicle {
 
 	// data members
-	private String fuelType;
-	private String colour;
-	private int maxPass;
-	private boolean hasMotor;
+	protected String fuelType;
+	protected String colour;
+	protected int maxPass;
+	protected boolean hasMotor;
 	
 	
 	// DESCRIPTION: default constructor 
@@ -38,17 +38,17 @@ public abstract class Vehicle {
 		return this.fuelType;
 	}
 	
-	public String colour()  {
+	public String getColour()  {
 
 		return this.colour;
 	}
 	
-	public int maxPass()  {
+	public int getMaxPass()  {
 		
 		return this.maxPass;
 	}
 	
-	public boolean hasMotor()  {
+	public boolean getHasMotor()  {
 		
 		return this.hasMotor;
 	}
@@ -65,7 +65,7 @@ public abstract class Vehicle {
 		this.colour = c;
 	}
 	
-	public void maxPass(int mp)  {
+	public void setMaxPass(int mp)  {
 		this.maxPass = mp;
 	}
 	
