@@ -19,10 +19,16 @@ public class Car extends Vehicle   {
 	// RETURN TYPE: Car 
 	public Car(String ft, String c, int mp, boolean hm, String t) {
 	
-		this.fuelType = ft;
-		this.colour = c;
-		this.maxPass = mp;
-		this.hasMotor = hm;
+		// LONG WAY:
+		//this.fuelType = ft;
+		//this.colour = c;
+		//this.maxPass = mp;
+		//this.hasMotor = hm;
+		
+		// Reuse Code!
+		super(ft, c, mp, hm);
+
+		// New code:
 		this.transmission = t;
 	}
 	
