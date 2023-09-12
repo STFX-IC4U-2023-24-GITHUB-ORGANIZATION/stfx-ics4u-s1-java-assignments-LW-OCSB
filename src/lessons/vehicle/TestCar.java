@@ -5,10 +5,10 @@ public class TestCar {
 	public static void main(String[] args) {
 	
 		
-		// create new instance of car using default construtor:
+		// create new instance of car using default constructor:
 		Car car1 = new Car();
 		
-		// create new instance of car using parameterized construtor:
+		// create new instance of car using parameterized constructor:
 		Car car2 = new Car("gas", "blue", 4, true, "standard");
 		
 		
