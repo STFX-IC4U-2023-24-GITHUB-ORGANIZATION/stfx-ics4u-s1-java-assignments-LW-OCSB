@@ -57,16 +57,16 @@ public class PicturesInJava {
 		// set label to display image upon application launch
 		label1.setIcon(dog1);
 		
-		JButton btnNewButton = new JButton("Change Picture");
-		btnNewButton.addActionListener(new ActionListener() {
+		JButton button1 = new JButton("Change Picture");
+		button1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
 				// set label to change image upon button click
 				label1.setIcon(dog2);
 			}
 		});
-		btnNewButton.setBounds(130, 170, 173, 35);
-		frame.getContentPane().add(btnNewButton);
+		button1.setBounds(130, 170, 173, 35);
+		frame.getContentPane().add(button1);
 	}
 
 }
