@@ -24,6 +24,7 @@ public class Recursion {
 	
 		// error case
 		if (n < 0)  {
+			
 			return -1;
 		}
 	
@@ -36,7 +37,7 @@ public class Recursion {
 		
 		else  {
 			
-			return n * factorialRecursive(n - 1);
+			return ( n * factorialRecursive(n--) );
 		}
 	}
 	
