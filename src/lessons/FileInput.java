@@ -32,6 +32,14 @@ public class FileInput {
 			
 			e.printStackTrace();
 		}
+		
+		// print contents of ArrayList
+		for (int i=0; i<colours.size(); i++)  {
+			System.out.println(colours.get(i));
+		}
+		
 	}
 
+	
+	
 }
