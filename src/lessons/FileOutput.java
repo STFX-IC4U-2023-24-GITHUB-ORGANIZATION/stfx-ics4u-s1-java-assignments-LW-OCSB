@@ -23,18 +23,12 @@ public class FileOutput {
 			for (int i=0; i<food.length; i++)  {
 				out.write(food[i] + "\n");
 			}
-			
-			// force the contents to be written, sometimes optional
-			//out.flush();
-			
-			// close file to clear memory
-			out.close();
-		
 		}
 		
 		catch (Exception e)  {
 			e.printStackTrace();
-		}
+		}		
+		
 	}
 
 }
