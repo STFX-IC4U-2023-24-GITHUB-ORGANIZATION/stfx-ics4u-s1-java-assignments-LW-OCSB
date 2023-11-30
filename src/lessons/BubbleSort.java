@@ -14,7 +14,7 @@ public class BubbleSort {
 		
 			// code to keep passsing, comparing and swapping
 		
-			for (int i=0; i<myArray.length -2; i++)  {
+			for (int i=0; i<myArray.length-1; i++)  {
 				
 				
 				if (myArray[i] > myArray[i+1])  {
