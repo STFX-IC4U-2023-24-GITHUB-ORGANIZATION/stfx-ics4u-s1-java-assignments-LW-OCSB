@@ -12,10 +12,8 @@ public class BubbleSort {
 			
 			swapped = false;
 		
-			// code to keep passsing, comparing and swapping
-		
+			// code to keep passing, comparing and swapping
 			for (int i=0; i<myArray.length-1; i++)  {
-				
 				
 				if (myArray[i] > myArray[i+1])  {
 					
@@ -25,13 +23,11 @@ public class BubbleSort {
 			}
 		}
 		
-		// print array
+		// print sorted array
 		for (int i=0; i<myArray.length; i++)  {
 			
 			System.out.print(myArray[i] + " ");
 		}
-		
-		
 		
 	}
 
