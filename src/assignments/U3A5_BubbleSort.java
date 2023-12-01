@@ -75,7 +75,7 @@ public class U3A5_BubbleSort {
 	
 	
 	// DESCRIPTION - Sorts String array ascending (true) or descending (false) directions
-	// PARAMETERS - String[] a, int n
+	// PARAMETERS - String[] a, boolean ascending
 	// RETURN TYPE - void
 	public static void bubbleSortStrings(String[] a, boolean ascending)  {
 		
@@ -83,7 +83,7 @@ public class U3A5_BubbleSort {
 	}
 	
 
-	// DESCRIPTION - Sorts integer array ascending (1) or descending (2) directions, recursively.
+	// DESCRIPTION - Sorts integer array ascending (true) or descending (false) directions, recursively.
 	// PARAMETERS - int[] a, boolean ascending
 	// RETURN TYPE - void
 	public static void bubbleSortStringsRecursive(String[] a, boolean ascending)  {
